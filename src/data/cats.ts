@@ -8,7 +8,8 @@ export default [
     color: 'black/white',
     weight: 13,
     location: 'fourside',
-    notes: 'Sweet kitty. He loves getting his belly rubbed.'
+    notes: 'Sweet kitty. He loves getting his belly rubbed.',
+    imageUrl: 'https://placekitten.com/300/300',
   },
   {
     name: 'Henry',
@@ -19,7 +20,8 @@ export default [
     color: 'orange/white',
     weight: 17,
     location: 'threed',
-    notes: 'Super friendly'
+    notes: 'Super friendly',
+    imageUrl: 'https://placekitten.com/380/200',
   },
   {
     name: 'Roger',
@@ -30,7 +32,8 @@ export default [
     color: 'gray',
     weight: 15,
     location: 'threed',
-    notes: 'Super friendly'
+    notes: 'Super friendly',
+    imageUrl: 'https://placekitten.com/480/210',
   },
   {
     name: 'Kitkat',
@@ -41,6 +44,7 @@ export default [
     color: 'black',
     weight: 9,
     location: 'threed',
-    notes: 'Super friendly'
+    notes: 'Super friendly',
+    imageUrl: 'https://placekitten.com/500/350',
   }
 ];

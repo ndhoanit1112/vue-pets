@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from 'vue-router';
 import Home from '../views/Home.vue';
 import Dogs from '../views/Dogs.vue';
 import Cats from '../views/Cats.vue';
+import Pet from '../views/Pets.vue';
 
 Vue.use(VueRouter);
 
@@ -14,13 +15,18 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: '/dogs',
-    name: 'Dogs',
+    name: 'dogs',
     component: Dogs,
   },
   {
     path: '/cats',
-    name: 'Cats',
+    name: 'cats',
     component: Cats,
+  },
+  {
+    path: '/pets/:species/:id',
+    name: 'pet',
+    component: Pet,
   },
 ];
 
