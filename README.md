@@ -1,5 +1,7 @@
 # vue-pets
 
+### A simple CR*D App I created to learn Vue Router, VueX
+
 ## Project setup
 ```
 npm install
