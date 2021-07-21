@@ -1,13 +1,22 @@
 <template>
   <div class="home-view-container">
-    <h1>Adopt a new best friend.</h1>
-    <h5>Total no. of Pets ready for Adoption: {{ petsCount }}</h5>
-    <h3>
-      <font-awesome-icon icon="cat"/>
-      {{ catsCount }} +
-      <font-awesome-icon icon="dog"/>
-      {{ dogsCount }}
-    </h3>
+    <b-row align-h="center">
+      <b-col cols="12" md="8">
+        <b-row align-h="center" align-v="center">
+          <img alt="Vue logo" src="../assets/logo.png">
+          <div>
+            <h1>Adopt a new best friend.</h1>
+            <h5>Total no. of Pets ready for Adoption: {{ petsCount }}</h5>
+            <h3>
+              <font-awesome-icon icon="cat"/>
+              {{ catsCount }} +
+              <font-awesome-icon icon="dog"/>
+              {{ dogsCount }}
+            </h3>
+          </div>
+        </b-row>
+      </b-col>
+    </b-row>
 
     <b-row align-h="center" class="mt-5">
       <b-col cols="12" md="8">
