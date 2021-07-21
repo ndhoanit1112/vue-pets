@@ -3,7 +3,7 @@ export default [
     name: 'Sheeba',
     breed: 'collie',
     gender: 'female',
-    age: 7,
+    age: 8,
     color: 'black/white',
     weight: 34,
     location: 'fourside',
@@ -39,4 +39,4 @@ export default [
     location: 'threed',
     notes: 'Super friendly'
   }
-]
+];

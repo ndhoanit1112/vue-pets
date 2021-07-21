@@ -1,15 +1,24 @@
 <template>
-  <div>
-    Cats
-  </div>
+  <PetTable species="cats" :pets="cats"/>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Vue } from 'vue-property-decorator';
+import { mapState } from 'vuex';
+import PetTable from '../components/PetTable.vue';
 
-@Component
+@Component({
+  components: {
+    PetTable
+  },
+  computed: {
+    ...mapState([
+      'cats'
+    ])
+  }
+})
 export default class Cats extends Vue {
-  
+
 }
 </script>
 
