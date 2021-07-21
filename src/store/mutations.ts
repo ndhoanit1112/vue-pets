@@ -8,5 +8,12 @@ export default {
     } else {
       state.cats.push(pet);
     }
+  },
+  adoptPet: (state: PetsState, { species, index }: any) => {
+    if (species === SPECIES.dogs) {
+      state.dogs.splice(index, 1);
+    } else {
+      state.cats.splice(index, 1);
+    }
   }
 };
