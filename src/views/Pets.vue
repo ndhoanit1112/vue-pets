@@ -1,6 +1,7 @@
 <template>
   <b-row align-h="center">
     <b-col cols="12" sm="8" md="5">
+      <h1>Pet Details</h1>
       <b-card
         v-if="pet"
         no-body

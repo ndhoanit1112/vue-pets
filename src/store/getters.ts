@@ -10,8 +10,8 @@ export default {
       return state.cats[index];
     }
   },
-  petsCount: (state: PetsState): number => {
-    return state.pets.length;
+  petsCount: (_state: PetsState, getters: any): number => {
+    return getters.catsCount + getters.dogsCount;
   },
   catsCount: (state: PetsState): number => {
     return state.cats.length;
